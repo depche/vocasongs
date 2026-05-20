@@ -12,6 +12,15 @@ p {
   margin: 0 0 1em 0;
 }
 
+.estilo-link a:hover {
+    color: #fff; /* se pone chingon a pasar el cursor alv */
+}
+
+.estilo-link a {
+    color: #00308F;
+    text-decoration: none;
+}
+
 @media (width >= 500px) {
   .media {
     display: grid;
@@ -42,4 +51,35 @@ p {
   .footer {
     grid-area: footer;
   }
+}
+
+.simple-footer {
+    background-color: #4863A0; /* Dark background */
+    color: #fff;            /* White text */
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #fff; /* Highlights on hover */
 }
